@@ -1,0 +1,12 @@
+2019-01-14 10:01:06 > DEBUG > Starting To Wechat ["scan",{"out_trade_no":"1547431231_14","total_amount":"0.1","subject":"购买产品"}] 
+
+2019-01-14 10:01:06 > INFO > Starting To Pay A Wechat Scan Order ["https://api.mch.weixin.qq.com/",{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"EZbdfBq6F7C23gYg","notify_url":"http://www.yingwenquming.com/wechat/notify","sign":"","trade_type":"NATIVE","spbill_create_ip":"127.0.0.99","out_trade_no":"1547431231_14","total_amount":"0.1","subject":"购买产品"}] 
+
+2019-01-14 10:01:06 > DEBUG > Wechat Generate Sign Content Before Trim [{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"EZbdfBq6F7C23gYg","notify_url":"http://www.yingwenquming.com/wechat/notify","out_trade_no":"1547431231_14","sign":"","spbill_create_ip":"127.0.0.99","subject":"购买产品","total_amount":"0.1","trade_type":"NATIVE"},"appid=wx0f5e37c357fcd593&mch_id=1513531551&nonce_str=EZbdfBq6F7C23gYg&notify_url=http://www.yingwenquming.com/wechat/notify&out_trade_no=1547431231_14&spbill_create_ip=127.0.0.99&subject=购买产品&total_amount=0.1&trade_type=NATIVE&"] 
+
+2019-01-14 10:01:06 > DEBUG > Wechat Generate Sign Before UPPER [{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"EZbdfBq6F7C23gYg","notify_url":"http://www.yingwenquming.com/wechat/notify","out_trade_no":"1547431231_14","sign":"","spbill_create_ip":"127.0.0.99","subject":"购买产品","total_amount":"0.1","trade_type":"NATIVE"},"fcc62b50ff5ee40108ff30f2e69f0be7"] 
+
+2019-01-14 10:01:06 > DEBUG > Schedule A Wechat order [{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"EZbdfBq6F7C23gYg","notify_url":"http://www.yingwenquming.com/wechat/notify","sign":"FCC62B50FF5EE40108FF30F2E69F0BE7","trade_type":"NATIVE","spbill_create_ip":"127.0.0.99","out_trade_no":"1547431231_14","total_amount":"0.1","subject":"购买产品"}] 
+
+2019-01-14 10:01:06 > DEBUG > Request To Wechat Api ["https://api.mch.weixin.qq.com/pay/unifiedorder",{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"EZbdfBq6F7C23gYg","notify_url":"http://www.yingwenquming.com/wechat/notify","sign":"FCC62B50FF5EE40108FF30F2E69F0BE7","trade_type":"NATIVE","spbill_create_ip":"127.0.0.99","out_trade_no":"1547431231_14","total_amount":"0.1","subject":"购买产品"}] 
+

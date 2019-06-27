@@ -1,0 +1,113 @@
+.detail{
+	.left-content{
+		.title{
+			font-size:30px;
+			padding:37.5px 0;
+			border-bottom: 1px solid #efefef;
+			position:relative;
+		}
+		// .title.zhiding:after{
+		// 	content:"";
+		// 	position:absolute;
+		// 	right:0;
+		// 	top:28px;
+		// 	width:56px;
+		// 	height:52px;
+		// 	background:url('../images/top.png') no-repeat center center;
+		// 	background-size: cover;
+		// 	transform: rotate(90deg);
+  //           -webkit-transform: rotate(90deg);
+  //           -moz-transform: rotate(90deg);
+  //           -o-transform: rotate(90deg);
+  //           -ms-transform: rotate(90deg);
+		// }
+		.info{
+			margin-top: 22px;
+			font-size:16px;
+			color:#666;
+			span.total{
+				padding-left: 25px;
+				background:url('../images/eye.png') no-repeat left center;
+				color:@mainColor;
+				margin-right: 68px;
+			}
+			span.time{
+				padding-left: 25px;
+				background:url('../images/clock.png') no-repeat left center;
+				margin-right: 68px;
+			}
+			span.author{
+				padding-left: 25px;
+				background:url('../images/user.png') no-repeat left center;
+			}
+		}
+		.article{
+			padding-bottom: 32px;
+			border-bottom: 1px solid #efefef;
+			p{
+				margin-top: 28px;
+				line-height: 28px;
+				img{
+					display: block;
+					max-width:100%;
+					height:auto;
+					margin:0 auto;
+					
+				}
+			}
+			.topic{
+				text-align: right;
+				margin-top: 22px;
+				span{
+					display: inline-block;
+					line-height: 28px;
+					border:1px solid @mainColor;
+					border-radius: 14px;
+					font-size:16px;
+					color:@mainColor;
+					width:92px;
+					text-align: center;
+					margin-left: 13px;
+				}
+			}
+		}
+		.tip{
+			padding-top:18px;
+			padding-bottom: 60px;
+		}
+		.operate{
+			padding:11px 24px;
+			border:1px solid #e6e6e6;
+			border-radius: 6px;
+			line-height: 33px;
+			.collect{
+				padding-left: 41px;
+				background:url('../images/collect.png') no-repeat left center;
+			}
+			.collected{
+				background-image: url('../images/collected.png');
+			}
+			.share{
+				display: block;
+				a{
+					display: inline-block;
+					width:33px;
+					height:33px;
+					line-height: 33px;
+					vertical-align: middle;
+					background-size: cover;
+					margin-left: 9px;
+				}
+				a:first-child{
+					background:url('../images/share-wx.png') no-repeat center center;
+				}
+				a:nth-child(2){
+					background:url('../images/share-weibo.png') no-repeat center center;
+				}
+				a:nth-child(3){
+					background:url('../images/share-qq.png') no-repeat center center;
+				}
+			}
+		}
+	}
+}

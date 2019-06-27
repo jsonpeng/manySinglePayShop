@@ -1,0 +1,88 @@
+.bg-content{
+	background:url('../images/auth-bg.jpg') no-repeat center center;
+	background-size: cover;
+	padding:102px 0 275px 0;
+	.login-box{
+		// width:35.5%;
+		margin:0 auto;
+		background-color:#fff;
+		border-radius: 7px;
+		.top{
+			padding:18px 25px 18px 47px;
+			border-bottom:1px solid #d9d9d9;
+			.pull-left{
+				li{
+					display: inline-block;
+					position:relative;
+					margin-right: 30px;
+					a{
+						font-size:22px;
+						line-height: 31px;
+						color:#333;
+					}
+				}
+				li.active{
+					a{
+						color:@mainColor;
+					}
+				}
+				li.active:after{
+					position:absolute;
+					content:"";
+					bottom:-19px;
+					left:-2px;
+					right:-2px;
+					border-top: 4px solid @mainColor;
+				}
+			}
+			.pull-right{
+				font-size:14px;
+				line-height: 31px;
+				color:@mainColor;
+			}
+		}
+		.login-main{
+			.operate{
+				width:320px;
+				margin-left: 128px;
+				.checkbox{
+					.label{
+						width:auto;
+					}
+					a{
+						color:@mainColor;
+					}
+				}
+				.btn-default{
+					width:100%;
+					text-align: center;
+					font-size:16px;
+					padding:7px 0px;
+					background-color:@mainColor;
+					border:none;
+					color:#fff;
+				}
+				.other-way{
+					font-size:12px;
+					line-height: 20px;
+					color:#999;
+					margin-top: 10px;
+					a{
+						color:@mainColor;
+					}
+					span{
+						float:right;
+						line-height: 20px;
+						padding:3px 20px;
+						background:url(../images/wx.png) no-repeat right center;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width:768px){
+	.login-box{
+		width:658px;
+	}
+}

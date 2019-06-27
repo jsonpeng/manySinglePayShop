@@ -1,0 +1,142 @@
+.news-main{
+	.title{
+		font-size:30px;
+		padding:37.5px 0;
+	}
+	.nav-child{
+		margin-bottom: 45px;
+		li{
+			display: inline-block;
+			font-size:22px;
+			line-height: 1;
+			margin-right: 68px;
+			padding-bottom: 16px;
+			position:relative;
+			a{
+				color:#333;
+			}
+		}
+		li.active{
+			font-weight:bold;
+			a{
+				color:#1976d3;
+			}
+		}
+		li.active:after{
+			content:'';
+			position:absolute;
+			bottom:0;
+			left:0;
+			width:55%;
+			border-top: 4px solid #1976d3;
+		}
+		li.notice:before{
+			content:'';
+			position:absolute;
+			right:-10px;
+			top:-2px;
+			width:8px;
+			height:8px;
+			background-color: #ff0000;
+			border-radius: 50%;
+		}
+	}
+	.news-list{
+		.col-md-6{
+			margin-bottom: 65px;
+			.item{
+				.img-box{
+					width:100%;
+					height:223px;
+					margin-bottom: 34px;
+					img{
+						width:100%;
+						height:100%;
+					}
+				}
+				h4{
+					font-size:22px;
+					line-height: 30px;
+					height:60px;
+					display: -webkit-box;
+				    -webkit-line-clamp: 2;
+				    -webkit-box-orient: vertical;
+				    word-wrap: break-word;
+				    overflow: hidden;
+				    text-align: justify;
+				}
+				.remark{
+					margin-top:14px; 	
+					color:#999;
+					font-size:16px;
+					.total{
+						padding-left: 25px;
+						background:url('../images/eye-d.png') no-repeat left center;
+						margin-right: 66px;
+					}
+					.time{
+						padding-left: 25px;
+						background:url('../images/clock.png') no-repeat left center;
+					}
+				}
+				.more{
+					margin-top: 22px;
+					span{
+						display: inline-block;
+						padding:10px 25px;
+						color:#fff;
+						background-color:@mainColor;
+					}
+				}
+			}
+		}
+		.col-md-6:nth-child(odd){
+			.item{
+				padding-right: 48px;
+			}
+		}
+		.col-md-6:nth-child(even){
+			.item{
+				padding-left: 48px;
+			}
+		}
+	}
+	.shengtai-list{
+		.row{
+			.col-md-4{
+				.shengtai-item{
+					display: block;
+					padding:28px 45px;
+					border:1px solid #e7e7e7;
+					border-radius: 6px;
+					margin-bottom: 15px;
+					.media-left{
+						padding-right: 16px;
+						width:122px;
+						height:82px;
+						img{
+							width:100%;
+							height:100%;
+						}
+					}
+					.media-body{
+						width:auto;
+						.media-heading{
+							font-size:20px;
+							display: -webkit-box;
+							-webkit-box-orient: vertical;
+							-webkit-line-clamp: 2;
+							overflow: hidden;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.quick-news{
+	.title{
+		font-size:30px;
+		padding:37.5px 0;
+	}
+}

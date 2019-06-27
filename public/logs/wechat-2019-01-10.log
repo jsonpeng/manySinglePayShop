@@ -1,0 +1,12 @@
+2019-01-10 18:04:06 > DEBUG > Starting To Wechat ["scan",{"out_trade_no":"1547114646_8","total_fee":10,"body":"购买产品"}] 
+
+2019-01-10 18:04:06 > INFO > Starting To Pay A Wechat Scan Order ["https://api.mch.weixin.qq.com/sandboxnew/",{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"Vl5Iq25KFkdf9dFQ","notify_url":"http://www.yingwenquming.com/wechat/notify","sign":"","trade_type":"NATIVE","spbill_create_ip":"127.0.0.99","out_trade_no":"1547114646_8","total_fee":10,"body":"购买产品"}] 
+
+2019-01-10 18:04:06 > DEBUG > Wechat Generate Sign Content Before Trim [{"appid":"wx0f5e37c357fcd593","body":"购买产品","mch_id":"1513531551","nonce_str":"Vl5Iq25KFkdf9dFQ","notify_url":"http://www.yingwenquming.com/wechat/notify","out_trade_no":"1547114646_8","sign":"","spbill_create_ip":"127.0.0.99","total_fee":10,"trade_type":"NATIVE"},"appid=wx0f5e37c357fcd593&body=购买产品&mch_id=1513531551&nonce_str=Vl5Iq25KFkdf9dFQ&notify_url=http://www.yingwenquming.com/wechat/notify&out_trade_no=1547114646_8&spbill_create_ip=127.0.0.99&total_fee=10&trade_type=NATIVE&"] 
+
+2019-01-10 18:04:06 > DEBUG > Wechat Generate Sign Before UPPER [{"appid":"wx0f5e37c357fcd593","body":"购买产品","mch_id":"1513531551","nonce_str":"Vl5Iq25KFkdf9dFQ","notify_url":"http://www.yingwenquming.com/wechat/notify","out_trade_no":"1547114646_8","sign":"","spbill_create_ip":"127.0.0.99","total_fee":10,"trade_type":"NATIVE"},"c821c32012344aea52f788c35a21bcad"] 
+
+2019-01-10 18:04:06 > DEBUG > Schedule A Wechat order [{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"Vl5Iq25KFkdf9dFQ","notify_url":"http://www.yingwenquming.com/wechat/notify","sign":"C821C32012344AEA52F788C35A21BCAD","trade_type":"NATIVE","spbill_create_ip":"127.0.0.99","out_trade_no":"1547114646_8","total_fee":10,"body":"购买产品"}] 
+
+2019-01-10 18:04:06 > DEBUG > Request To Wechat Api ["https://api.mch.weixin.qq.com/sandboxnew/pay/unifiedorder",{"appid":"wx0f5e37c357fcd593","mch_id":"1513531551","nonce_str":"Vl5Iq25KFkdf9dFQ","notify_url":"http://www.yingwenquming.com/wechat/notify","sign":"C821C32012344AEA52F788C35A21BCAD","trade_type":"NATIVE","spbill_create_ip":"127.0.0.99","out_trade_no":"1547114646_8","total_fee":10,"body":"购买产品"}] 
+
